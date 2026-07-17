@@ -1,0 +1,15 @@
+{
+  "name": "pulse-beat",
+  "description": "Animasi detak jantung — dua ketukan cepat lalu jeda.",
+  "keyframes": [
+    { "time": 0.0,  "scale": 1.0 },
+    { "time": 0.1,  "scale": 1.1 },
+    { "time": 0.2,  "scale": 1.0 },
+    { "time": 0.3,  "scale": 1.08 },
+    { "time": 0.4,  "scale": 1.0 },
+    { "time": 1.0,  "scale": 1.0 }
+  ],
+  "duration": 1.5,
+  "easing": "ease-in-out",
+  "loop": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "lungs-breath",
+  "description": "Animasi paru-paru mengembang dan mengempis seperti bernapas.",
+  "keyframes": [
+    { "time": 0.0,  "scaleX": 1.0,  "scaleY": 1.0,  "opacity": 1.0 },
+    { "time": 0.4,  "scaleX": 1.06, "scaleY": 1.04, "opacity": 0.9 },
+    { "time": 0.5,  "scaleX": 1.06, "scaleY": 1.04, "opacity": 0.9 },
+    { "time": 1.0,  "scaleX": 1.0,  "scaleY": 1.0,  "opacity": 1.0 }
+  ],
+  "duration": 3.5,
+  "easing": "ease-in-out",
+  "loop": true,
+  "transform_origin": "center bottom"
+}
