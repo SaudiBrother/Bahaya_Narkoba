@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="none">
+  <defs>
+    <radialGradient id="glow-red" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e53935" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#e53935" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-center" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e53935" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#e53935" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="artery-main" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e53935"/>
+      <stop offset="100%" stop-color="#a91515"/>
+    </linearGradient>
+    <linearGradient id="vein-main" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7b2020"/>
+      <stop offset="100%" stop-color="#4a1010"/>
+    </linearGradient>
+    <linearGradient id="pulse-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e53935" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f6a623" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#e53935" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur-soft">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Ambient glow background -->
+  <circle cx="160" cy="160" r="140" fill="url(#glow-red)" filter="url(#blur-soft)"/>
+
+  <!-- === AORTA (main central vessel going down) === -->
+  <!-- Outer wall (dark) -->
+  <path d="M160 42 C160 42 152 55 152 80 L152 160 C152 180 148 200 144 220 C140 240 138 260 140 280"
+        stroke="#6b1111" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <!-- Inner lumen -->
+  <path d="M160 42 C160 42 152 55 152 80 L152 160 C152 180 148 200 144 220 C140 240 138 260 140 280"
+        stroke="url(#artery-main)" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <!-- Highlight -->
+  <path d="M160 42 C160 42 154 55 154 80 L154 155"
+        stroke="#ff6b6b" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+  <!-- === AORTIC ARCH (bends left) === -->
+  <!-- Outer -->
+  <path d="M160 50 C160 38 175 30 188 30 C204 30 215 40 215 54"
+        stroke="#6b1111" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <!-- Inner -->
+  <path d="M160 50 C160 38 175 30 188 30 C204 30 215 40 215 54"
+        stroke="url(#artery-main)" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.9"/>
+
+  <!-- === BRACHIOCEPHALIC / RIGHT SUBCLAVIAN === -->
+  <path d="M215 54 C215 54 220 68 218 85 C216 100 210 115 205 135"
+        stroke="#6b1111" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M215 54 C215 54 220 68 218 85 C216 100 210 115 205 135"
+        stroke="url(#artery-main)" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.85"/>
+
+  <!-- Branch right from arch -->
+  <path d="M215 54 C228 48 245 50 258 62 C268 72 272 88 268 104"
+        stroke="#7b2020" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M215 54 C228 48 245 50 258 62 C268 72 272 88 268 104"
+        stroke="#e53935" stroke-width="4.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+
+  <!-- Small branches right -->
+  <path d="M258 62 C270 56 282 54 290 60" stroke="#e53935" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.65"/>
+  <path d="M268 80 C278 76 288 78 294 86" stroke="#e53935" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.55"/>
+  <path d="M268 104 C278 108 286 116 284 128" stroke="#e53935" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+  <!-- === LEFT CAROTID from arch === -->
+  <path d="M188 30 C188 20 190 12 192 8" stroke="#7b2020" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M188 30 C188 20 190 12 192 8" stroke="#e53935" stroke-width="4.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+
+  <!-- === CELIAC / MESENTERIC branches going right === -->
+  <path d="M152 140 C140 138 126 132 115 128 C100 122 86 118 72 120"
+        stroke="#7b2020" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M152 140 C140 138 126 132 115 128 C100 122 86 118 72 120"
+        stroke="#e53935" stroke-width="5.5" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <!-- Sub-branch left up -->
+  <path d="M115 128 C105 120 95 110 88 98 C82 88 80 78 82 68"
+        stroke="#7b2020" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M115 128 C105 120 95 110 88 98 C82 88 80 78 82 68"
+        stroke="#e53935" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <!-- Tiny branches left -->
+  <path d="M88 98 C78 94 68 96 60 104" stroke="#e53935" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M82 68 C72 62 62 64 54 72" stroke="#e53935" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.55"/>
+  <path d="M72 120 C60 118 50 122 44 130 C38 138 36 150 40 162" stroke="#e53935" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M72 120 C66 112 62 102 64 92" stroke="#e53935" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.45"/>
+
+  <!-- === ILIAC BIFURCATION at bottom === -->
+  <path d="M144 240 C134 244 122 250 110 262 C98 274 94 288 96 304"
+        stroke="#7b2020" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M144 240 C134 244 122 250 110 262 C98 274 94 288 96 304"
+        stroke="#e53935" stroke-width="5.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M144 240 C152 246 162 252 170 264 C178 276 180 290 178 304"
+        stroke="#7b2020" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M144 240 C152 246 162 252 170 264 C178 276 180 290 178 304"
+        stroke="#e53935" stroke-width="5.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+
+  <!-- Branching from iliac left -->
+  <path d="M110 262 C96 260 82 262 70 270" stroke="#e53935" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M96 304 C84 308 72 308 62 300" stroke="#e53935" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <!-- Branching from iliac right -->
+  <path d="M170 264 C182 260 194 262 204 272" stroke="#e53935" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M178 304 C188 310 200 308 208 298" stroke="#e53935" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+  <!-- === RENAL ARTERIES === -->
+  <path d="M152 175 C162 172 175 170 186 174 C196 178 204 188 202 200"
+        stroke="#7b2020" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M152 175 C162 172 175 170 186 174 C196 178 204 188 202 200"
+        stroke="#e53935" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.75"/>
+  <path d="M152 175 C142 172 130 170 118 174 C108 178 100 188 102 200"
+        stroke="#7b2020" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M152 175 C142 172 130 170 118 174 C108 178 100 188 102 200"
+        stroke="#e53935" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.75"/>
+
+  <!-- === MESENTERIC branches right === -->
+  <path d="M205 135 C215 145 220 158 218 172 C216 184 210 194 204 204"
+        stroke="#7b2020" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M205 135 C215 145 220 158 218 172 C216 184 210 194 204 204"
+        stroke="#e53935" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M218 172 C230 170 242 172 250 180" stroke="#e53935" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M204 204 C214 208 222 216 220 228" stroke="#e53935" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.45"/>
+
+  <!-- === PULSE WAVE flowing down aorta === -->
+  <rect x="150" y="0" width="8" height="40" rx="4" fill="url(#pulse-grad)" opacity="0.9">
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,290" dur="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1"/>
+    <animate attributeName="opacity" values="0.9;0.4;0" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- === BLOOD CELLS floating === -->
+  <ellipse cx="156" cy="100" rx="4" ry="2.5" fill="#ff8d8a" opacity="0.7">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-2,30;-3,65;-4,95;-4,130" dur="3s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <animate attributeName="opacity" values="0.7;0.6;0.5;0.4;0" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="153" cy="150" rx="3.5" ry="2" fill="#ff6b6b" opacity="0.6">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-2,40;-3,85" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
+    <animate attributeName="opacity" values="0.6;0.4;0" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
+  </ellipse>
+  <ellipse cx="157" cy="200" rx="3" ry="1.8" fill="#ff8d8a" opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-2,35;-3,70" dur="2.2s" repeatCount="indefinite" begin="1.4s"/>
+    <animate attributeName="opacity" values="0.5;0.3;0" dur="2.2s" repeatCount="indefinite" begin="1.4s"/>
+  </ellipse>
+
+  <!-- === PLAQUE / BLOCKAGE indicator === -->
+  <g transform="translate(148, 108)" opacity="0.9" filter="url(#glow)">
+    <ellipse cx="0" cy="0" rx="9" ry="5" fill="#f6a623" opacity="0.85"/>
+    <ellipse cx="0" cy="0" rx="6" ry="3" fill="#ffd080"/>
+    <animate attributeName="opacity" values="0.9;0.6;0.9" dur="2.4s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Center glow pulse -->
+  <circle cx="160" cy="155" r="30" fill="url(#glow-center)" filter="url(#blur-soft)">
+    <animate attributeName="r" values="28;38;28" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.3;0.6" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

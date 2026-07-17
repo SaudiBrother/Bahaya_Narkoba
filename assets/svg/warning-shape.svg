@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Triangle warning -->
+  <path d="M100 20 L185 165 L15 165 Z"
+        fill="rgba(224,53,53,0.1)" stroke="#e03535" stroke-width="3"
+        stroke-linejoin="round"/>
+  <!-- Inner triangle -->
+  <path d="M100 45 L168 158 L32 158 Z"
+        stroke="rgba(224,53,53,0.35)" stroke-width="1.5" fill="none"
+        stroke-linejoin="round"/>
+  <!-- Exclamation -->
+  <rect x="94" y="75" width="12" height="52" rx="6"
+        fill="#e03535" opacity=".9"/>
+  <circle cx="100" cy="148" r="7" fill="#e03535" opacity=".9"/>
+</svg>

@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="none">
+  <defs>
+    <linearGradient id="bill-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a3d2a"/>
+      <stop offset="100%" stop-color="#1a2a1a"/>
+    </linearGradient>
+    <linearGradient id="burn-grad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#e53935"/>
+      <stop offset="50%" stop-color="#f6a623"/>
+      <stop offset="100%" stop-color="#fff176" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="coin-grad" cx="40%" cy="35%" r="60%" gradientUnits="objectBoundingBox" x1="20%" y1="10%" x2="80%" y2="90%">
+      <stop offset="0%" stop-color="#f6c623"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+    <linearGradient id="smoke-grad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a1a1b3" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#a1a1b3" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="arrow-drop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e53935"/>
+      <stop offset="100%" stop-color="#7b1010"/>
+    </linearGradient>
+    <filter id="blur4">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="glow-gold">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="fire-bg" cx="50%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#e53935" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#e53935" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="bill-clip1">
+      <rect x="40" y="155" width="110" height="64" rx="6"/>
+    </clipPath>
+    <clipPath id="bill-clip2">
+      <rect x="62" y="185" width="110" height="64" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <!-- Fire ambient glow bottom -->
+  <ellipse cx="160" cy="270" rx="90" ry="40" fill="url(#fire-bg)" filter="url(#blur4)"/>
+
+  <!-- === FALLING COINS (top area) === -->
+  <!-- Coin 1 -->
+  <g filter="url(#glow-gold)">
+    <ellipse cx="82" cy="60" rx="20" ry="20" fill="url(#coin-grad)" stroke="#d4a017" stroke-width="1.5"/>
+    <ellipse cx="82" cy="60" rx="14" ry="14" fill="none" stroke="#f6c623" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="82" y="65" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#8B6914" opacity="0.8">$</text>
+  </g>
+  <!-- Coin falling trajectory -->
+  <path d="M82 80 C80 100 78 120 76 145" stroke="#f6c623" stroke-width="0.8" stroke-dasharray="3 4" opacity="0.4"/>
+
+  <!-- Coin 2 -->
+  <g filter="url(#glow-gold)" transform="translate(8,-10)">
+    <ellipse cx="160" cy="48" rx="16" ry="16" fill="url(#coin-grad)" stroke="#d4a017" stroke-width="1.2"/>
+    <ellipse cx="160" cy="48" rx="11" ry="11" fill="none" stroke="#f6c623" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="160" y="53" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#8B6914" opacity="0.8">$</text>
+  </g>
+  <path d="M168 62 C169 82 170 104 170 130" stroke="#f6c623" stroke-width="0.8" stroke-dasharray="3 4" opacity="0.4"/>
+
+  <!-- Coin 3 -->
+  <g filter="url(#glow-gold)">
+    <ellipse cx="240" cy="68" rx="18" ry="18" fill="url(#coin-grad)" stroke="#d4a017" stroke-width="1.4"/>
+    <ellipse cx="240" cy="68" rx="12" ry="12" fill="none" stroke="#f6c623" stroke-width="0.8" stroke-opacity="0.55"/>
+    <text x="240" y="73" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#8B6914" opacity="0.8">$</text>
+  </g>
+  <path d="M240 86 C238 106 236 126 234 150" stroke="#f6c623" stroke-width="0.8" stroke-dasharray="3 4" opacity="0.4"/>
+
+  <!-- Small coin fragments (crumbled coins) -->
+  <circle cx="110" cy="52" r="6" fill="#b8860b" stroke="#f6c623" stroke-width="0.8" stroke-opacity="0.5" opacity="0.6"/>
+  <circle cx="108" cy="52" r="2.5" fill="#f6c623" opacity="0.4"/>
+  <circle cx="215" cy="42" r="5" fill="#b8860b" stroke="#f6c623" stroke-width="0.7" stroke-opacity="0.5" opacity="0.5"/>
+
+  <!-- === DOWN ARROW (economic decline) === -->
+  <g filter="url(#blur2)" opacity="0.15">
+    <path d="M160 90 L160 180 L140 160 M160 180 L180 160" stroke="#e53935" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <path d="M160 92 L160 178 L142 162 M160 178 L178 162" stroke="url(#arrow-drop)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.4;0.7" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- === BANKNOTES (stacked, burning) === -->
+  <!-- Bill 3 (back) -->
+  <g transform="rotate(-14, 95, 195)">
+    <rect x="38" y="178" width="110" height="60" rx="6" fill="url(#bill-grad)" stroke="#3a5c3a" stroke-width="1.2"/>
+    <rect x="46" y="186" width="94" height="44" rx="3" fill="none" stroke="#4a7a4a" stroke-width="0.7" stroke-opacity="0.5"/>
+    <rect x="60" y="196" width="22" height="24" rx="2" fill="#1e3a1e" opacity="0.6"/>
+    <line x1="92" y1="196" x2="122" y2="196" stroke="#3a6a3a" stroke-width="1" opacity="0.5"/>
+    <line x1="92" y1="202" x2="118" y2="202" stroke="#3a6a3a" stroke-width="1" opacity="0.4"/>
+    <line x1="92" y1="208" x2="120" y2="208" stroke="#3a6a3a" stroke-width="1" opacity="0.4"/>
+    <text x="71" y="214" text-anchor="middle" font-family="serif" font-size="11" fill="#4a8a4a" opacity="0.6">Rp</text>
+  </g>
+  <!-- Bill 2 (middle) -->
+  <g transform="rotate(-5, 95, 195)">
+    <rect x="42" y="165" width="110" height="60" rx="6" fill="url(#bill-grad)" stroke="#3a5c3a" stroke-width="1.2"/>
+    <rect x="50" y="173" width="94" height="44" rx="3" fill="none" stroke="#4a7a4a" stroke-width="0.7" stroke-opacity="0.5"/>
+    <rect x="64" y="183" width="22" height="24" rx="2" fill="#1e3a1e" opacity="0.7"/>
+    <line x1="96" y1="183" x2="126" y2="183" stroke="#3a6a3a" stroke-width="1" opacity="0.5"/>
+    <line x1="96" y1="189" x2="122" y2="189" stroke="#3a6a3a" stroke-width="1" opacity="0.45"/>
+    <line x1="96" y1="195" x2="124" y2="195" stroke="#3a6a3a" stroke-width="1" opacity="0.45"/>
+    <text x="75" y="201" text-anchor="middle" font-family="serif" font-size="11" fill="#4a8a4a" opacity="0.7">Rp</text>
+  </g>
+  <!-- Bill 1 (front) -->
+  <rect x="46" y="152" width="112" height="62" rx="6" fill="url(#bill-grad)" stroke="#3a5c3a" stroke-width="1.5"/>
+  <rect x="54" y="160" width="96" height="46" rx="3" fill="none" stroke="#4a8a4a" stroke-width="0.8" stroke-opacity="0.6"/>
+  <rect x="68" y="170" width="24" height="26" rx="2" fill="#1e3a1e" opacity="0.8"/>
+  <line x1="102" y1="170" x2="136" y2="170" stroke="#3a7a3a" stroke-width="1.2" opacity="0.6"/>
+  <line x1="102" y1="178" x2="132" y2="178" stroke="#3a7a3a" stroke-width="1.2" opacity="0.5"/>
+  <line x1="102" y1="186" x2="134" y2="186" stroke="#3a7a3a" stroke-width="1.2" opacity="0.5"/>
+  <text x="80" y="192" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#5a9a5a" opacity="0.8">Rp</text>
+
+  <!-- === BURNING EFFECT ON BILLS === -->
+  <!-- Char/burn edge on bills -->
+  <path d="M46 190 C48 185 52 178 58 175 C64 172 70 176 74 180 C78 184 80 190 84 188 C88 186 90 180 94 177 C98 174 104 175 108 178 C112 181 114 186 118 184 C122 182 124 176 128 174 C132 172 136 173 140 177 C144 181 146 188 150 188 C152 188 154 185 155 182 L158 214 L46 214 Z"
+        fill="#1a0a02" opacity="0.85"/>
+
+  <!-- Fire flames -->
+  <!-- Flame 1 -->
+  <path d="M68 188 C65 178 60 168 62 156 C64 148 70 144 72 150 C74 140 78 132 82 138 C84 128 90 124 92 132 C96 122 100 118 102 126 C106 116 112 114 110 124 C114 118 118 122 116 132 C120 128 124 134 120 142 C124 136 128 142 126 150 C130 144 134 150 130 158 C132 154 136 158 134 165 C136 160 140 164 138 172 L68 172 Z"
+        fill="url(#burn-grad)" opacity="0.88">
+    <animateTransform attributeName="transform" type="translate" values="0,0;2,-4;-2,-6;1,-3;0,0" dur="1.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </path>
+  <!-- Flame 2 (inner, brighter) -->
+  <path d="M82 188 C80 180 78 170 80 162 C82 155 86 152 88 158 C90 150 94 145 96 152 C98 145 104 142 104 150 C108 143 112 148 108 156 C112 150 116 155 114 162 C116 158 120 162 118 169 L82 169 Z"
+        fill="#f6a623" opacity="0.8">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-2,-5;3,-8;-1,-4;0,0" dur="2.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </path>
+  <!-- Flame core (hottest) -->
+  <path d="M94 188 C92 181 90 173 93 167 C95 162 98 160 99 165 C101 159 105 155 106 162 C108 156 113 154 112 162 C114 157 117 161 115 167 C117 163 120 166 118 172 L94 172 Z"
+        fill="#fff176" opacity="0.7">
+    <animateTransform attributeName="transform" type="translate" values="0,0;1,-6;-2,-9;2,-5;0,0" dur="1.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </path>
+
+  <!-- === SMOKE === -->
+  <path d="M75 155 C72 140 74 124 70 110 C67 98 60 90 62 80" stroke="url(#smoke-grad)" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.35">
+    <animate attributeName="d" values="M75 155 C72 140 74 124 70 110 C67 98 60 90 62 80;M75 155 C76 138 72 122 74 108 C76 95 68 87 72 77;M75 155 C72 140 74 124 70 110 C67 98 60 90 62 80" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.35;0.2;0.35" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <path d="M100 148 C100 132 102 116 98 100 C95 86 90 76 94 66" stroke="url(#smoke-grad)" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.28">
+    <animate attributeName="d" values="M100 148 C100 132 102 116 98 100 C95 86 90 76 94 66;M100 148 C102 130 98 114 102 98 C105 84 98 74 100 64;M100 148 C100 132 102 116 98 100 C95 86 90 76 94 66" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="opacity" values="0.28;0.15;0.28" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+  </path>
+
+  <!-- === FAMILY/SOCIAL ICONS (right side) === -->
+  <!-- Person 1 (adult) -->
+  <g transform="translate(200, 150)" opacity="0.85">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="14" fill="#2a2a3a" stroke="#a1a1b3" stroke-width="1.2"/>
+    <circle cx="0" cy="0" r="8" fill="#3a3a4a"/>
+    <!-- Body -->
+    <path d="M0 14 L0 50" stroke="#a1a1b3" stroke-width="3" stroke-linecap="round"/>
+    <!-- Arms up (distress) -->
+    <path d="M0 24 L-18 14 M0 24 L18 14" stroke="#a1a1b3" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Legs -->
+    <path d="M0 50 L-10 72 M0 50 L10 72" stroke="#a1a1b3" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Red X over person (affected) -->
+    <line x1="-8" y1="-8" x2="8" y2="8" stroke="#e53935" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <line x1="8" y1="-8" x2="-8" y2="8" stroke="#e53935" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  <!-- Person 2 (smaller / child) -->
+  <g transform="translate(248, 165)" opacity="0.65">
+    <circle cx="0" cy="0" r="10" fill="#2a2a3a" stroke="#777789" stroke-width="1"/>
+    <circle cx="0" cy="0" r="6" fill="#3a3a4a"/>
+    <path d="M0 10 L0 36" stroke="#777789" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M0 18 L-12 10 M0 18 L12 10" stroke="#777789" stroke-width="2" stroke-linecap="round"/>
+    <path d="M0 36 L-7 52 M0 36 L7 52" stroke="#777789" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- Chain/link between them and the money loss -->
+  <path d="M186 168 C176 168 166 168 158 172" stroke="#e53935" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.45"/>
+
+  <!-- === PERCENT DOWN CHART (bottom right) === -->
+  <g transform="translate(192, 230)" opacity="0.8">
+    <!-- Chart frame -->
+    <rect x="0" y="-60" width="80" height="60" rx="6" fill="#0f0f14" stroke="#1e1e2e" stroke-width="1"/>
+    <!-- Chart bars (decreasing) -->
+    <rect x="8" y="-52" width="12" height="44" rx="2" fill="#3a6a3a" opacity="0.6"/>
+    <rect x="24" y="-40" width="12" height="32" rx="2" fill="#7a4a1a" opacity="0.6"/>
+    <rect x="40" y="-28" width="12" height="20" rx="2" fill="#a03a1a" opacity="0.7"/>
+    <rect x="56" y="-18" width="12" height="10" rx="2" fill="#e53935" opacity="0.85"/>
+    <!-- Down trend line -->
+    <path d="M14 -52 L30 -40 L46 -28 L62 -18" stroke="#f6a623" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Dots on line -->
+    <circle cx="14" cy="-52" r="2.5" fill="#f6a623"/>
+    <circle cx="30" cy="-40" r="2.5" fill="#f6a623"/>
+    <circle cx="46" cy="-28" r="2.5" fill="#f6a623"/>
+    <circle cx="62" cy="-18" r="2.5" fill="#e53935"/>
+  </g>
+
+  <!-- Glow under fire -->
+  <ellipse cx="102" cy="210" rx="60" ry="16" fill="#e53935" opacity="0.1" filter="url(#blur4)"/>
+</svg>

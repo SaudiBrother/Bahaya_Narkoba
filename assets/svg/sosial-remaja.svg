@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="none">
+  <defs>
+    <radialGradient id="s-glow-bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f6a623" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#f6a623" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="s-figure" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6b6478"/>
+      <stop offset="100%" stop-color="#38344a"/>
+    </linearGradient>
+    <linearGradient id="s-figure-at-risk" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff8d8a"/>
+      <stop offset="100%" stop-color="#a91515"/>
+    </linearGradient>
+    <linearGradient id="s-shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4a0"/>
+      <stop offset="100%" stop-color="#12604a"/>
+    </linearGradient>
+    <filter id="s-blur"><feGaussianBlur stdDeviation="4"/></filter>
+    <filter id="s-glow-f"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <circle cx="160" cy="160" r="140" fill="url(#s-glow-bg)" filter="url(#s-blur)"/>
+
+  <!-- Peer-circle connecting lines -->
+  <g stroke="#a1a1b3" stroke-width="1" stroke-opacity="0.3">
+    <line x1="160" y1="72" x2="242" y2="118"/>
+    <line x1="242" y1="118" x2="242" y2="206"/>
+    <line x1="242" y1="206" x2="160" y2="252"/>
+    <line x1="160" y1="252" x2="78" y2="206"/>
+    <line x1="78" y1="206" x2="78" y2="118"/>
+    <line x1="78" y1="118" x2="160" y2="72"/>
+  </g>
+
+  <!-- Generic silhouette figure (head + shoulders), reused at each ring position -->
+  <!-- Position: top -->
+  <g transform="translate(160,72)">
+    <circle cx="0" cy="-10" r="12" fill="url(#s-figure)"/>
+    <path d="M-18 24 C-18 6 -10 -2 0 -2 C10 -2 18 6 18 24 Z" fill="url(#s-figure)"/>
+  </g>
+  <!-- Position: upper-right -->
+  <g transform="translate(242,118)">
+    <circle cx="0" cy="-10" r="12" fill="url(#s-figure)" opacity="0.85"/>
+    <path d="M-18 24 C-18 6 -10 -2 0 -2 C10 -2 18 6 18 24 Z" fill="url(#s-figure)" opacity="0.85"/>
+  </g>
+  <!-- Position: lower-right -->
+  <g transform="translate(242,206)">
+    <circle cx="0" cy="-10" r="12" fill="url(#s-figure)" opacity="0.7"/>
+    <path d="M-18 24 C-18 6 -10 -2 0 -2 C10 -2 18 6 18 24 Z" fill="url(#s-figure)" opacity="0.7"/>
+  </g>
+  <!-- Position: upper-left -->
+  <g transform="translate(78,118)">
+    <circle cx="0" cy="-10" r="12" fill="url(#s-figure)" opacity="0.85"/>
+    <path d="M-18 24 C-18 6 -10 -2 0 -2 C10 -2 18 6 18 24 Z" fill="url(#s-figure)" opacity="0.85"/>
+  </g>
+  <!-- Position: lower-left -->
+  <g transform="translate(78,206)">
+    <circle cx="0" cy="-10" r="12" fill="url(#s-figure)" opacity="0.7"/>
+    <path d="M-18 24 C-18 6 -10 -2 0 -2 C10 -2 18 6 18 24 Z" fill="url(#s-figure)" opacity="0.7"/>
+  </g>
+
+  <!-- Protective arc reaching toward the at-risk figure -->
+  <path d="M108 258 A 62 62 0 0 1 212 258" fill="none" stroke="url(#s-shield)" stroke-width="3.5" stroke-linecap="round" stroke-opacity="0.55" stroke-dasharray="6 6">
+    <animate attributeName="stroke-dashoffset" values="0;-24" dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Position: bottom — the vulnerable / at-risk figure, highlighted -->
+  <g filter="url(#s-glow-f)">
+    <circle cx="160" cy="252" r="34" fill="#e53935" opacity="0.14">
+      <animate attributeName="opacity" values="0.10;0.26;0.10" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="240" r="13" fill="url(#s-figure-at-risk)"/>
+    <path d="M141 276 C141 256 149 248 160 248 C171 248 179 256 179 276 Z" fill="url(#s-figure-at-risk)"/>
+  </g>
+  <circle cx="160" cy="252" r="46" stroke="#e53935" stroke-width="1" fill="none" stroke-opacity="0.5">
+    <animate attributeName="r" values="44;58;44" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.5;0;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
