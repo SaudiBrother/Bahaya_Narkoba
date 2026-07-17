@@ -1,0 +1,48 @@
+{
+  "typing_texts": [
+    "Narkoba Tidak Memberi — Ia Membajak.",
+    "Satu Zat, Ribuan Sinyal Otak Dikelabui.",
+    "Kecanduan Bukan Soal Kemauan, tapi Sirkuit Otak.",
+    "Pemulihan Itu Nyata — dan Bisa Dimulai."
+  ],
+  "subtitle": "Lebih dari 316 juta orang di dunia menggunakan narkoba setiap tahun (UNODC, 2023), dan di Indonesia sekitar 4,15 juta jiwa terpapar penyalahgunaannya (BNN–BRIN, 2023–2025). Halaman ini hadir bukan untuk menghakimi, melainkan untuk menjelaskan secara ilmiah apa yang sesungguhnya terjadi pada otak dan tubuh ketika narkotika masuk — agar pemahaman yang utuh menjadi dasar setiap keputusan dan dukungan yang diberikan.",
+  "counters": [
+    {
+      "value": 316000000,
+      "suffix": "+",
+      "label": "Pengguna narkoba di dunia setiap tahun (UNODC, World Drug Report 2025)"
+    },
+    {
+      "value": 4150000,
+      "suffix": "",
+      "label": "Jiwa di Indonesia terpapar penyalahgunaan narkoba (Survei BNN–BRIN 2023–2025)"
+    },
+    {
+      "value": 450000,
+      "suffix": "+",
+      "label": "Kematian per tahun secara global yang berkaitan dengan penggunaan narkoba (UNODC)"
+    }
+  ],
+  "intro_cards": [
+    {
+      "icon": "assets/svg/brain.svg",
+      "title": "Membajak Otak, Bukan Sekadar 'Fly'",
+      "desc": "Narkotika bukan molekul kebahagiaan baru — ia adalah senyawa asing yang meniru, memblokir, atau memaksa keluarnya neurotransmiter alami seperti dopamin, jauh melampaui batas yang pernah dikenal otak."
+    },
+    {
+      "icon": "assets/svg/heart-pulse.svg",
+      "title": "Kecanduan Adalah Penyakit Otak",
+      "desc": "Paparan berulang membuat otak menurunkan jumlah reseptor dopaminnya sendiri sebagai bentuk pertahanan. Hasilnya: toleransi, ketagihan, dan melemahnya kendali diri — bukan sekadar lemahnya niat."
+    },
+    {
+      "icon": "assets/svg/warning-shape.svg",
+      "title": "Kematian Sering Datang dalam Diam",
+      "desc": "Overdosis opioid menekan pusat pernapasan di batang otak hingga napas berhenti, sering kali tanpa gejala mencolok. Stimulan dapat memicu gangguan irama jantung fatal bahkan pada usia muda."
+    },
+    {
+      "icon": "assets/svg/narkoba-cross.svg",
+      "title": "Pemulihan Itu Mungkin",
+      "desc": "Kecanduan tergolong kondisi kronis yang bisa ditangani. Layanan konsultasi dan rehabilitasi resmi tersedia gratis lewat Call Center BNN 184, aktif 24 jam setiap hari."
+    }
+  ]
+}

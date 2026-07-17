@@ -1,0 +1,88 @@
+{
+  "bab": [
+    {
+      "number": 1,
+      "tag": "Neurologi",
+      "title": "Ketika Zat Asing Membajak Kimiawi Otak",
+      "svg": "brain",
+      "desc": "Otak bekerja lewat keseimbangan neurotransmiter yang sangat presisi — dopamin, serotonin, endorfin — untuk mengatur rasa senang, gerak, dan fungsi bertahan hidup. Narkotika bukan molekul baru yang 'menambahkan' kenikmatan; ia adalah senyawa asing yang meniru, memblokir, atau memaksa pelepasan neurotransmiter alami itu. THC pada ganja meniru anandamide dan mengikat reseptor CB1, menekan sistem 'rem' GABA sehingga dopamin meluap. Heroin diubah tubuh menjadi 6-MAM yang menembus otak dan mengaktifkan reseptor mu-opioid. Kokain memblokir 'pompa' yang seharusnya menyerap kembali dopamin, sehingga dopamin menumpuk di luar sel saraf. Sabu (metamfetamin) bahkan masuk ke dalam sel saraf itu sendiri dan memaksa cadangan dopamin keluar dalam jumlah yang jauh melampaui sinyal alami.",
+      "highlights": [
+        { "icon": "🔴", "text": "Setiap golongan narkotika — ganja, opioid, stimulan — punya 'kunci' kimiawi yang berbeda, tapi semuanya menuju satu hasil akhir: banjir dopamin jauh di luar kemampuan alami otak." },
+        { "icon": "⚠️", "text": "Karena reseptor-reseptor ini awalnya berevolusi untuk sinyal bertahan hidup (makan, ikatan sosial), otak 'salah membaca' narkoba sebagai kebutuhan yang lebih penting dari makanan atau rasa aman." },
+        { "icon": "💡", "text": "Memahami mekanisme ini penting: kecanduan lahir bukan dari zat yang menambah kenikmatan, melainkan zat yang membajak sistem kimiawi yang sudah ada di otak." }
+      ]
+    },
+    {
+      "number": 2,
+      "tag": "Kecanduan",
+      "title": "Rem yang Copot: Bagaimana Kecanduan Terbentuk",
+      "svg": "kecanduan",
+      "desc": "Saat dopamin membanjir berulang kali, otak melindungi diri dengan mengurangi jumlah reseptor dopamin D2 — mirip mengecilkan volume karena musiknya terlalu keras. Efeknya ada dua: toleransi (butuh dosis makin besar untuk sensasi yang sama) dan anhedonia (aktivitas menyenangkan biasa — makan, hobi, kebersamaan — terasa hambar). Bersamaan dengan itu, area depan otak (korteks prefrontal) yang berfungsi sebagai 'rem' pengendali impuls justru melemah aktivitasnya, sementara area yang mengatur emosi dan keinginan menjadi berlebihan responsnya. Kondisi ini dikenal secara klinis sebagai iRISA (Impaired Response Inhibition and Salience Attribution) — kerangka yang menjelaskan mengapa seseorang bisa terus mencari narkoba meski sadar penuh akan bahayanya.",
+      "highlights": [
+        { "icon": "🔴", "text": "Gejala putus zat (withdrawal) bukan 'drama' — ini respons biologis nyata saat pasokan dopamin anjlok di bawah ambang normal otak." },
+        { "icon": "⚠️", "text": "Riset pencitraan otak (PET/fMRI) secara konsisten menunjukkan area pengendali impuls 'meredup' pada pecandu kokain, sabu, maupun opioid — bukan tanda lemah moral, melainkan perubahan fungsi yang terukur." },
+        { "icon": "💡", "text": "Karena ini perubahan biologis, penanganannya memerlukan pendekatan medis dan psikiatris jangka panjang — bukan sekadar nasihat untuk 'lebih kuat menahan diri'." }
+      ]
+    },
+    {
+      "number": 3,
+      "tag": "Kardiovaskular",
+      "title": "Jantung yang Dipaksa Bekerja di Luar Batas",
+      "svg": "kardiovaskular",
+      "desc": "Stimulan seperti kokain dan sabu memicu lonjakan hormon adrenalin yang membuat jantung berdetak lebih cepat dan pembuluh darah menyempit secara mendadak. Kokain, secara khusus, memblokir kanal natrium pada sel otot jantung — efek yang bisa terlihat pada rekaman EKG berupa pelebaran gelombang jantung dan gangguan irama yang berpotensi fatal. Risiko membesar bila kokain dicampur alkohol: enzim hati mengubah kombinasi ini menjadi kokaetilen, senyawa baru dengan durasi kerja lebih panjang dan risiko serangan jantung mendadak yang lebih tinggi — bahkan pada usia muda dengan jantung yang sebelumnya sehat.",
+      "highlights": [
+        { "icon": "🔴", "text": "Serangan jantung akibat stimulan bisa terjadi pada usia 20–30-an tanpa riwayat penyakit jantung sebelumnya — bukan cuma risiko orang tua." },
+        { "icon": "⚠️", "text": "Mencampur kokain dengan alkohol tidak saling menetralkan — kombinasi ini justru menciptakan zat baru (kokaetilen) yang lebih berbahaya bagi jantung." },
+        { "icon": "💡", "text": "Kerusakan pembuluh darah akibat stimulan sering bersifat menetap, bahkan setelah seseorang berhenti total menggunakan narkoba." }
+      ]
+    },
+    {
+      "number": 4,
+      "tag": "Overdosis",
+      "title": "Napas yang Berhenti dalam Diam",
+      "svg": "lungs",
+      "desc": "Penyebab utama kematian pada overdosis opioid (heroin, fentanil) umumnya bukan serangan jantung, melainkan henti napas. Di batang otak terdapat kelompok kecil sel saraf — dikenal sebagai kompleks preBötzinger — yang berperan sebagai 'metronom' pernapasan, mengatur ritme tarikan napas otomatis. Opioid menempel pada reseptor di jaringan sekitar area ini dan menekan aktivitasnya. Pada dosis tinggi, sinyal untuk menarik napas berikutnya melemah lalu berhenti, sering kali saat korban sedang tidur atau tidak sadar, sehingga tidak sempat memberi tanda bahaya kepada orang di sekitarnya.",
+      "highlights": [
+        { "icon": "🔴", "text": "Overdosis opioid sering terjadi tanpa gejala mencolok di awal — korban tampak seperti tertidur pulas, bukan meronta kesakitan." },
+        { "icon": "⚠️", "text": "Mencampur opioid dengan alkohol, obat penenang, atau obat tidur melipatgandakan risiko henti napas karena keduanya menekan pusat pernapasan yang sama." },
+        { "icon": "💡", "text": "Naloxone, obat penawar opioid, dapat memulihkan napas dalam hitungan menit bila diberikan cepat — mengenali tanda overdosis dan segera mencari bantuan medis sangat menentukan hidup dan mati." }
+      ]
+    },
+    {
+      "number": 5,
+      "tag": "Klasifikasi Zat",
+      "title": "Mengenal Golongan Narkoba dan Risiko Khasnya",
+      "svg": "zat_narkoba",
+      "desc": "Secara farmakologis, narkotika umumnya terbagi dalam beberapa golongan besar berdasarkan efeknya pada sistem saraf pusat. Depresan (heroin, obat penenang) memperlambat aktivitas otak dan berisiko tinggi menyebabkan henti napas. Stimulan (sabu, kokain) mempercepat aktivitas otak dan membebani jantung. Halusinogen mengubah persepsi dan dapat memicu gangguan psikotik. Di Indonesia, pola penyalahgunaan zat juga meluas ke luar narkotika 'klasik' — mulai dari menghirup uap lem yang mengandung toluena (zat pelarut kimia, bukan LSD seperti anggapan keliru yang beredar di masyarakat), penyalahgunaan obat resep seperti triheksifenidil dan obat batuk dekstrometorfan dosis tinggi, hingga zat psikoaktif baru (NPS) yang struktur kimianya terus diubah untuk menghindari deteksi dan regulasi.",
+      "highlights": [
+        { "icon": "🔴", "text": "Toluena dalam lem — paling sering disalahgunakan anak jalanan karena murah dan mudah didapat — dapat merusak selubung pelindung saraf (mielin) dan menyebabkan gangguan intelijensi permanen, bukan efek 'ringan' seperti sering dianggap." },
+        { "icon": "⚠️", "text": "Penyalahgunaan obat resep bukan narkotika ilegal, seperti triheksifenidil dan obat batuk dosis tinggi, sama-sama berisiko menimbulkan halusinasi, kejang, dan ketergantungan." },
+        { "icon": "💡", "text": "Zat psikoaktif baru (NPS) kerap dirancang agar sulit dikenali tes laboratorium standar — artinya penggunanya sering tidak benar-benar tahu apa yang mereka konsumsi atau dosis amannya." }
+      ]
+    },
+    {
+      "number": 6,
+      "tag": "Kelompok Rentan",
+      "title": "Mengapa Remaja dan Anak Jalanan Paling Berisiko",
+      "svg": "sosial_remaja",
+      "desc": "Otak remaja masih dalam tahap pematangan, terutama di korteks prefrontal — bagian yang mengendalikan pengambilan keputusan dan pengendalian impuls. Ini membuat paparan zat adiktif di usia muda berisiko membentuk jalur kecanduan yang lebih kuat dan lebih sulit diputus dibanding paparan di usia dewasa. Ajakan teman sebaya tercatat sebagai salah satu pemicu paling umum seseorang mencoba narkoba untuk pertama kali. Pada kelompok anak jalanan dan remaja dari keluarga dengan keterbatasan ekonomi, pola penyalahgunaan zat sering bergeser ke pilihan yang lebih murah dan mudah didapat, seperti menghirup lem, karena keterbatasan biaya untuk jenis narkotika lain.",
+      "highlights": [
+        { "icon": "🔴", "text": "Ajakan dan pengaruh teman sebaya adalah salah satu pemicu awal paling umum penyalahgunaan narkoba pada remaja, menurut survei dan temuan lapangan BNN." },
+        { "icon": "⚠️", "text": "Anak jalanan yang terpapar zat inhalan sejak dini rentan mengalami gangguan tumbuh kembang, kesulitan belajar, dan risiko putus sekolah yang berkepanjangan." },
+        { "icon": "💡", "text": "Pengawasan, komunikasi terbuka, dan ketahanan keluarga terbukti menjadi salah satu faktor pelindung paling kuat terhadap penyalahgunaan zat pada anak dan remaja." }
+      ]
+    },
+    {
+      "number": 7,
+      "tag": "Sosial & Kebijakan",
+      "title": "Beban yang Ditanggung Jauh Melampaui Pengguna",
+      "svg": "ekonomi_sosial",
+      "desc": "Survei nasional BNN dan BRIN periode 2023–2025 mencatat prevalensi penyalahgunaan narkoba di Indonesia naik dari 1,73% (2023) menjadi 2,11% dari populasi usia 15–64 tahun, atau setara 4,15 juta jiwa. Penegakan hukum terus berjalan — sepanjang 2025, BNN bersama aparat mengungkap ratusan kasus dan menyita lebih dari empat ton sabu — namun sisi pemulihan masih tertinggal jauh: mayoritas penyalahguna di Indonesia belum pernah mengakses layanan rehabilitasi sama sekali, sering kali karena stigma sosial yang memandang rehabilitasi sebagai aib keluarga, bukan sebagai perawatan medis. Secara global, PBB melalui UNODC mencatat hanya sekitar 1 dari 12 orang dengan gangguan penggunaan narkoba yang benar-benar memperoleh akses pengobatan.",
+      "highlights": [
+        { "icon": "💰", "text": "Kerugian narkoba tidak berhenti pada pengguna: keluarga menanggung beban finansial, emosional, dan sering kali stigma sosial yang berkepanjangan." },
+        { "icon": "⚠️", "text": "Kesenjangan akses rehabilitasi adalah tantangan besar. Program P4GN (Pencegahan, Pemberantasan Penyalahgunaan dan Peredaran Gelap Narkotika) terus mendorong pendekatan pemulihan, bukan semata hukuman, bagi penyalahguna." },
+        { "icon": "🌐", "text": "Melaporkan peredaran gelap atau mencari layanan konsultasi rehabilitasi bisa dilakukan lewat Call Center BNN di 184, yang beroperasi 24 jam setiap hari." }
+      ]
+    }
+  ]
+}

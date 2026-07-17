@@ -1,0 +1,34 @@
+{
+  "title": "Satu Langkah Bisa Menyelamatkan Nyawa",
+  "desc": "Baik untuk berhenti, mendukung orang terdekat, atau sekadar memahami risikonya — pemulihan dari kecanduan bukan tentang kekuatan kemauan semata. Ini tentang memahami bahwa otak yang terpapar zat adiktif membutuhkan strategi yang tepat, dukungan yang nyata, dan penanganan medis — serta keyakinan bahwa otak dan tubuh memiliki kemampuan luar biasa untuk pulih.",
+  "steps": [
+    {
+      "num": 1,
+      "title": "Akui dan Bicarakan",
+      "desc": "Baik untuk diri sendiri maupun orang terdekat, langkah pertama adalah mengakui ada masalah dan membicarakannya dengan orang yang dipercaya atau tenaga profesional — tanpa rasa malu berlebihan yang justru sering menunda pertolongan."
+    },
+    {
+      "num": 2,
+      "title": "Hubungi Layanan Resmi",
+      "desc": "Call Center BNN di 184 (aktif 24 jam) dan portal rehabilitasi.bnn.go.id menyediakan konsultasi gratis dan rahasia mengenai prosedur serta akses layanan rehabilitasi medis maupun sosial terdekat."
+    },
+    {
+      "num": 3,
+      "title": "Bangun Sistem Dukungan",
+      "desc": "Dukungan keluarga dan lingkungan sosial terbukti menjadi salah satu faktor terkuat keberhasilan pemulihan. Ketahanan keluarga yang baik juga menjadi benteng pencegahan bagi anggota keluarga lain, terutama remaja."
+    },
+    {
+      "num": 4,
+      "title": "Pahami Ini Proses, Bukan Sekali Jadi",
+      "desc": "Kecanduan adalah kondisi kronis yang bisa kambuh — ini bukan tanda kegagalan, melainkan bagian dari proses pemulihan jangka panjang yang membutuhkan kesabaran dan pendampingan berkelanjutan."
+    }
+  ],
+  "cta_primary": {
+    "label": "Kembali ke Beranda",
+    "url": "#beranda"
+  },
+  "cta_secondary": {
+    "label": "Layanan Rehabilitasi BNN",
+    "url": "https://rehabilitasi.bnn.go.id"
+  }
+}
