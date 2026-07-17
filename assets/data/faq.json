@@ -1,0 +1,28 @@
+{
+  "faq": [
+    {
+      "q": "Apakah ganja aman karena 'alami' dan berasal dari tumbuhan?",
+      "a": "Tidak. 'Alami' tidak sama dengan 'aman' — kanabinoid pada ganja sebenarnya berevolusi sebagai racun pertahanan tanaman terhadap serangga dan radiasi UV, bukan untuk dikonsumsi manusia. THC tetap bekerja mengikat reseptor CB1 di otak dan dapat memicu ketergantungan serta gangguan memori jangka pendek, dan pada penggunaan berat berkaitan dengan peningkatan risiko gangguan kecemasan maupun psikosis pada individu yang rentan."
+    },
+    {
+      "q": "Kenapa kecanduan narkoba disebut penyakit otak, bukan cuma masalah kemauan?",
+      "a": "Karena paparan berulang zat adiktif secara terukur mengubah struktur dan fungsi otak — jumlah reseptor dopamin berkurang (menyebabkan toleransi dan anhedonia), sementara area otak yang mengendalikan impuls melemah aktivitasnya. Perubahan ini terlihat jelas lewat pencitraan otak (PET/fMRI) pada pecandu, dan itulah sebabnya pendekatan medis serta psikiatris jauh lebih efektif dibanding hanya mengandalkan niat atau hukuman semata."
+    },
+    {
+      "q": "Apa penyebab kematian yang sebenarnya saat seseorang overdosis narkoba?",
+      "a": "Tergantung jenis zatnya. Pada opioid (heroin, fentanil), penyebab utama kematian adalah henti napas akibat tertekannya pusat pernapasan di batang otak. Pada stimulan (kokain, sabu) dosis tinggi, kematian lebih sering disebabkan gangguan irama jantung atau lonjakan tekanan darah mendadak. Risiko pada keduanya meningkat drastis bila dicampur dengan alkohol atau zat penekan sistem saraf lain."
+    },
+    {
+      "q": "Apakah pecandu narkoba harus dipenjara atau direhabilitasi?",
+      "a": "Undang-Undang Narkotika (UU No. 35/2009) mengatur bahwa penyalahguna dan pecandu narkotika berhak menjalani rehabilitasi medis dan sosial. Pendekatan penanganan adiksi saat ini — termasuk yang didorong lewat program P4GN oleh BNN — semakin menekankan pemulihan sebagai penanganan penyakit kronis, bukan semata pelanggaran yang harus dihukum, meskipun pengedar dan bandar tetap diproses secara hukum pidana."
+    },
+    {
+      "q": "Apakah mencampur narkoba dengan alkohol atau obat lain memperbesar risikonya?",
+      "a": "Ya, sangat. Mencampur opioid dengan alkohol atau obat penenang melipatgandakan risiko henti napas karena keduanya menekan area otak yang sama. Mencampur kokain dengan alkohol menciptakan kokaetilen, senyawa baru yang lebih toksik bagi jantung. Penggunaan lebih dari satu zat sekaligus (polydrug use) adalah salah satu faktor risiko terbesar dalam kasus overdosis fatal, karena efeknya sering kali sulit diprediksi."
+    },
+    {
+      "q": "Ke mana bisa mencari bantuan jika saya atau orang terdekat mengalami masalah narkoba?",
+      "a": "Layanan konsultasi dan rehabilitasi resmi bisa diakses lewat Call Center BNN di nomor 184 (aktif 24 jam) atau situs rehabilitasi.bnn.go.id, selain melalui puskesmas, rumah sakit, atau psikolog/psikiater terdekat. Mencari bantuan lebih awal — baik untuk diri sendiri maupun orang terdekat — secara konsisten terbukti meningkatkan peluang pemulihan jangka panjang."
+    }
+  ]
+}

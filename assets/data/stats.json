@@ -1,0 +1,52 @@
+{
+  "stats": [
+    {
+      "icon": "🌍",
+      "value": 316,
+      "suffix": " juta+",
+      "label": "Orang di dunia menggunakan narkoba setidaknya sekali dalam setahun terakhir — naik 28% dalam satu dekade (UNODC, World Drug Report 2025)."
+    },
+    {
+      "icon": "💊",
+      "value": 64,
+      "suffix": " juta",
+      "label": "Orang di dunia diperkirakan mengalami gangguan penggunaan narkoba (drug use disorder) pada 2023 (UNODC)."
+    },
+    {
+      "icon": "☠️",
+      "value": 450,
+      "suffix": " ribu+",
+      "label": "Kematian per tahun secara global yang berkaitan dengan penggunaan narkoba, berdasarkan data terakhir UNODC (2021)."
+    },
+    {
+      "icon": "🇮🇩",
+      "value": 4150000,
+      "suffix": "",
+      "label": "Jiwa di Indonesia diperkirakan terpapar penyalahgunaan narkoba — setara 2,11% populasi usia produktif (Survei BNN–BRIN 2023–2025)."
+    },
+    {
+      "icon": "🧠",
+      "value": 10,
+      "suffix": " detik",
+      "label": "Perkiraan waktu yang dibutuhkan zat stimulan untuk mencapai otak dan memicu lonjakan dopamin setelah dihisap."
+    },
+    {
+      "icon": "🏥",
+      "value": 1,
+      "suffix": " dari 12",
+      "label": "Rasio orang dengan gangguan penggunaan narkoba di dunia yang benar-benar mendapat akses layanan pengobatan (UNODC)."
+    },
+    {
+      "icon": "🚨",
+      "value": 746,
+      "suffix": "+",
+      "label": "Kasus tindak pidana narkotika yang diungkap BNN sepanjang 2025, dengan lebih dari 4 ton sabu turut disita."
+    },
+    {
+      "icon": "💉",
+      "value": 14,
+      "suffix": " juta",
+      "label": "Orang di dunia yang menggunakan narkoba suntik — sekitar separuhnya diperkirakan hidup dengan hepatitis C (UNODC, 2023)."
+    }
+  ]
+}

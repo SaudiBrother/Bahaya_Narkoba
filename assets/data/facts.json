@@ -1,0 +1,34 @@
+{
+  "facts": [
+    {
+      "title": "Ganja Awalnya Adalah 'Tabir Surya' Tanaman",
+      "desc": "THC dan senyawa kanabinoid lain awalnya berevolusi bukan untuk manusia, melainkan sebagai pelindung tanaman ganja dari radiasi UV-B di dataran tinggi dan sebagai racun alami pengusir serangga. Efeknya pada otak manusia adalah kebetulan evolusioner — strukturnya kebetulan menyerupai molekul alami di sistem saraf kita.",
+      "tag": "Biologi Evolusioner"
+    },
+    {
+      "title": "Metabolisme Lebih Cepat, Risiko Bisa Lebih Besar",
+      "desc": "Sebuah studi awal menemukan bahwa pengguna sabu dengan enzim hati (CYP2D6) yang bekerja sangat cepat justru menunjukkan kerusakan kognitif tiga kali lebih besar dibanding yang metabolismenya lambat — kebalikan dari yang banyak diduga orang.",
+      "tag": "Farmakogenetik"
+    },
+    {
+      "title": "Napas Berhenti, Bukan Jantung yang Berhenti Dulu",
+      "desc": "Pada overdosis opioid, kematian paling sering disebabkan oleh berhentinya napas, bukan serangan jantung. Titik kritisnya ada di sekelompok kecil sel saraf batang otak yang mengatur ritme napas otomatis tubuh.",
+      "tag": "Overdosis"
+    },
+    {
+      "title": "Kokain + Alkohol Menciptakan Zat Baru",
+      "desc": "Ketika dikonsumsi bersamaan, enzim hati mengubah kokain dan etanol menjadi kokaetilen — senyawa psikoaktif baru dengan risiko terhadap jantung yang lebih tinggi dibanding kokain saja.",
+      "tag": "Interaksi Zat"
+    },
+    {
+      "title": "Lem Bukan Narkoba 'Ringan'",
+      "desc": "Zat pelarut seperti toluena dalam lem yang sering disalahgunakan anak jalanan dapat merusak selubung pelindung saraf (mielin) dan menyebabkan gangguan kecerdasan permanen — meski harganya jauh lebih murah dari narkotika lain.",
+      "tag": "Zat Inhalan"
+    },
+    {
+      "title": "Otak 'Salah Mengira' Narkoba Lebih Penting dari Makanan",
+      "desc": "Sirkuit dopamin di otak berevolusi untuk memberi insentif pada hal-hal penting bagi kelangsungan hidup, seperti makanan dan ikatan sosial. Narkotika membanjiri sirkuit ini dengan sinyal yang jauh melampaui batas alami, membuat otak keliru menilai zat itu lebih penting dari kebutuhan dasar sekalipun.",
+      "tag": "Mekanisme Reward"
+    }
+  ]
+}
