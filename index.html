@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Platform edukasi berbasis fakta medis dan neurosains tentang bahaya narkoba — cara kerja narkotika membajak otak, dampak pada organ tubuh, data nasional, dan jalan menuju pemulihan." />
+  <title>BahayaNarkoba — Informasi & Edukasi Bahaya Narkoba Berbasis Data</title>
+
+  <!-- Favicon / Web Icon -->
+  <link rel="icon"             href="assets/icons/favicon.svg"          type="image/svg+xml" />
+  <link rel="icon"             href="assets/icons/favicon.png"          type="image/png"     sizes="32x32" />
+  <link rel="icon"             href="assets/icons/favicon-16.png"       type="image/png"     sizes="16x16" />
+  <link rel="icon"             href="assets/icons/favicon-192.png"      type="image/png"     sizes="192x192" />
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png"                      sizes="180x180" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="site-progress" id="progressBar"></div>
+
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#beranda" class="nav-logo" aria-label="BahayaNarkoba">
+        <img src="assets/icons/favicon.svg" alt="" />
+        <span>BahayaNarkoba</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu navigasi" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks" aria-label="Navigasi utama">
+        <a href="#beranda" class="active">
+          <img src="assets/icons/icon-home.svg" alt="" />
+          Beranda
+        </a>
+        <a href="#bahaya">
+          <img src="assets/icons/icon-alert.svg" alt="" />
+          Bahaya
+        </a>
+        <a href="#statistik">
+          <img src="assets/icons/icon-info.svg" alt="" />
+          Statistik
+        </a>
+        <a href="#organ">
+          <img src="assets/svg/lungs-damage.svg" alt="" />
+          Organ
+        </a>
+        <a href="#faq">
+          <img src="assets/icons/icon-info.svg" alt="" />
+          FAQ
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="beranda">
+      <div class="hero-bg">
+        <img src="assets/shapes/grid-bg.svg" alt="" class="grid-bg" />
+        <img src="assets/shapes/particles.svg" alt="" class="particles-bg" />
+      </div>
+
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <img src="assets/icons/icon-alert.svg" alt="" />
+            <span>Fakta medis & neurosains berbasis data</span>
+          </div>
+
+          <h1 id="heroTitle">Kenali. Pahami. Lindungi.</h1>
+          <p id="heroSubtitle">
+            Edukasi visual tentang cara narkotika membajak otak dan tubuh, serta jalan menuju pemulihan.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#bahaya" class="btn btn-primary">Pelajari Bahayanya</a>
+            <a href="#statistik" class="btn btn-secondary">Lihat Statistik</a>
+          </div>
+
+          <div class="hero-counters" id="heroCounters" aria-label="Statistik utama"></div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="visual-orbit">
+            <img class="visual-main pulse-anim" src="assets/svg/brain.svg" alt="" />
+            <img class="visual-smoke particle-anim" src="assets/svg/partikel.svg" alt="" />
+            <div class="warning-chip">
+              <img src="assets/svg/warning-shape.svg" alt="" />
+              Sinyal otak dibajak
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro-section" id="ringkasan">
+      <div class="container">
+        <div class="intro-grid" id="introGrid"></div>
+      </div>
+    </section>
+
+    <section class="section danger-section" id="bahaya">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="section-tag">Dampak Klinis</span>
+          <h2>7 Aspek Dampak Narkoba pada Tubuh & Kehidupan</h2>
+          <p>
+            Dari mekanisme di tingkat sel saraf hingga dampak sosial dan kebijakan nasional, setiap bab menjelaskan secara spesifik bagaimana narkotika memengaruhi otak, tubuh, dan kehidupan penggunanya. Pilih bab untuk mempelajari risikonya secara lebih mendalam.
+          </p>
+        </div>
+
+        <div class="bab-layout reveal">
+          <div class="bab-tabs" id="babTabs" role="tablist"></div>
+          <article class="bab-panel" id="babContentArea"></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats-section" id="statistik">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Data Global & Nasional</span>
+          <h2>Statistik dan Skala Dampak</h2>
+          <p>
+            Angka-angka berikut bukan sekadar statistik — ini adalah cerminan skala nyata dampak narkoba terhadap kesehatan manusia, dikompilasi dari data UNODC, BNN, dan BRIN.
+          </p>
+        </div>
+
+        <div class="stats-grid" id="statsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section organ-section" id="organ">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="section-tag">Visual Anatomi</span>
+          <h2>Dampak Narkoba pada Setiap Organ</h2>
+          <p>
+            Pilih organ untuk memahami bagaimana narkotika secara spesifik memengaruhi setiap sistem tubuh — dari mekanisme kerusakan di tingkat sel hingga risiko jangka panjangnya.
+          </p>
+        </div>
+
+        <div class="organ-layout reveal">
+          <div class="organ-visual">
+            <div class="organ-card">
+              <img id="organSvg" src="assets/svg/brain.svg" alt="Ilustrasi organ" />
+              <span class="organ-pulse">
+                <span class="organ-pulse-ring" style="--delay:0s"></span>
+                <span class="organ-pulse-ring" style="--delay:0.8s"></span>
+                <span class="organ-pulse-ring" style="--delay:1.6s"></span>
+                <img src="assets/icons/icon-alert.svg" alt="" />
+              </span>
+            </div>
+          </div>
+
+          <div class="organ-content">
+            <div class="organ-tabs" id="organTabs"></div>
+            <p class="organ-detail" id="organDetail">
+              Zat adiktif menembus sawar darah-otak dan meniru atau memaksa pelepasan neurotransmiter alami seperti dopamin. Sebagai respons, otak menurunkan jumlah reseptor dopamin yang tersisa, sementara area pengendali impuls di korteks prefrontal justru melemah — memicu siklus toleransi dan menurunnya kemampuan mengendalikan dorongan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section facts-section" id="fakta">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Fakta Sains</span>
+          <h2>Fakta Penting Seputar Narkoba</h2>
+        </div>
+
+        <div class="facts-carousel reveal" aria-label="Fakta bahaya narkoba">
+          <div class="facts-track" id="factsTrack"></div>
+
+          <div class="facts-controls">
+            <button class="icon-btn" id="factsPrev" type="button" aria-label="Fakta sebelumnya">←</button>
+            <div class="facts-dots" id="factsDots"></div>
+            <button class="icon-btn" id="factsNext" type="button" aria-label="Fakta berikutnya">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        <div class="section-header center reveal">
+          <span class="section-tag">Tanya Jawab</span>
+          <h2>Pertanyaan yang Sering Diajukan</h2>
+          <p>
+            Jawaban berbasis fakta untuk pertanyaan yang paling sering muncul — termasuk meluruskan miskonsepsi umum tentang ganja "alami", kecanduan, dan ke mana mencari bantuan.
+          </p>
+        </div>
+
+        <div class="faq-list" id="faqList"></div>
+      </div>
+    </section>
+
+    <section class="section closing-section" id="pemulihan">
+      <div class="container">
+        <div class="closing-card reveal">
+          <img src="assets/svg/narkoba-cross.svg" alt="" class="closing-deco" />
+          <div id="closingContent"></div>
+          <div class="closing-steps" id="closingSteps"></div>
+          <div id="closingCtaContainer"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="reveal">
+        <a href="#beranda" class="footer-logo">
+          <img src="assets/icons/favicon.svg" alt="" />
+          <span>BahayaNarkoba</span>
+        </a>
+        <p>
+          Informasi dan edukasi berbasis fakta medis dan neurosains tentang bahaya narkoba — untuk mendukung keputusan kesehatan yang lebih terinformasi dan jalan menuju pemulihan.
+        </p>
+      </div>
+
+      <div class="reveal">
+        <h3>Navigasi</h3>
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#bahaya">Bahaya</a></li>
+          <li><a href="#statistik">Statistik</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="reveal">
+        <h3>Referensi</h3>
+        <ul>
+          <li><a href="https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2025.html" target="_blank" rel="noopener">UNODC</a></li>
+          <li><a href="https://bnn.go.id" target="_blank" rel="noopener">BNN RI</a></li>
+          <li><a href="https://id.wikipedia.org/wiki/Narkoba" target="_blank" rel="noopener">Wikipedia</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 BahayaNarkoba · Program Edukasi Kesehatan Mandiri</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" type="button" aria-label="Kembali ke atas">↑</button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
